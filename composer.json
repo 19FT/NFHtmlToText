@@ -1,0 +1,25 @@
+{
+    "name": "nineteenfeet/nf-html-to-text",
+    "description": "Simple conversion of HTML to plain text",
+    "keywords": [
+        "html2text", "html", "plain text", "text"
+    ],
+    "homepage": "http://github.com/nineteenfeet/NFNumberToWord",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Allen",
+            "email": "rob@19ft.com",
+            "homepage": "http://19ft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./HtmlToText.php"
+        ]
+    }
+}
