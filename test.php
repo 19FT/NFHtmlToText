@@ -21,7 +21,7 @@ $html = <<<'EOT'
 
 
         Dici enim <br>nihil potest verius. Duo Reges: constructio interrete. Haec para/doca illi,
-    
+
         nos admirabilia dicamus. Comprehensum, quod cognitum non habet? Quoniam, si dis placet?
 
     </p>
@@ -40,6 +40,35 @@ $html = <<<'EOT'
     <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Haec para/doca illi, nos admirabilia dicamus. Age, inquies, ista parva sunt. Suo genere perveniant ad extremum;
     </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>Item #1</td>
+            </tr>
+            <tr>
+                <td>532</td>
+                <td>Item #2</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Item #3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Amount</th>
+                <th>Description</th>
+            </tr>
+        </tfoot>
+    </table>
     </body>
 </html>
 EOT;

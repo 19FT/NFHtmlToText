@@ -25,7 +25,7 @@ class HtmlToText
     // configurable properties
     protected $bulletSymbol = '*';
     protected $wrapColumn = 76;
-    
+
     // Discard everything within these tags
     protected $ignoredBlockTags = array(
         'head',
@@ -39,11 +39,13 @@ class HtmlToText
         'p',
         'div',
         'ol', 'ul',
+        'table',
     );
 
     // These tags need a single new line after them
     protected $newLineTags = array(
         'br',
+        'tr',
     );
 
 
@@ -218,7 +220,7 @@ class HtmlToText
     {
         return $this->bulletSymbol;
     }
-            
+
     /**
      * Setter for bulletSymbol. This is the symbol to use for an unsigned list.
      * Defaults to an asterisk.
@@ -231,7 +233,7 @@ class HtmlToText
         $this->bulletSymbol = $bulletSymbol;
         return $this;
     }
-    
+
     /**
      * Getter for wrapColumn
      *
@@ -241,7 +243,7 @@ class HtmlToText
     {
         return $this->wrapColumn;
     }
-    
+
     /**
      * Setter for wrapColumn. This is the number of characters to wrap
      * long lines on. Set to zero to disable.
