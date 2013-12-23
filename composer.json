@@ -4,7 +4,7 @@
     "keywords": [
         "html2text", "html", "plain text", "text"
     ],
-    "homepage": "http://github.com/19ft/NFNumberToWord",
+    "homepage": "http://github.com/19ft/NFHtmlToText",
     "type": "library",
     "license": "MIT",
     "authors": [
